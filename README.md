@@ -5,7 +5,7 @@
 Project 3: Introduction to Version Control
 
 ### Description
-Describe what your project is about and what it does
+In Project 3 I use the knowledge from Udacity Course Version Control to post my previous Project 2 with Git.
 
 ### Files used
 Include the files used
