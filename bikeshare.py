@@ -54,7 +54,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    
+
     # Load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
 
@@ -79,7 +79,7 @@ def load_data(city, month, day):
         # Filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
-        
+
     return df
 
 
@@ -88,7 +88,7 @@ def time_stats(df):
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
-    
+
     # Convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
@@ -115,7 +115,7 @@ def time_stats(df):
     popular_hour = df['hour'].mode()[0]
     print('Most common start hour:', popular_hour)
 
-    
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -189,10 +189,10 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
+
         #Display a prompt where the user can decide if the user would like to see more data
         enter = ['yes','no']
-        user_input = input('Would you like to see more data? Enter: Yes or No.\n')
+        user_input = input('Would you like to see 5 lines of raw data? Enter: Yes or No.\n')
 
         while user_input.lower() not in enter:
             user_input = input('Please enter Yes or No:\n')
@@ -203,7 +203,7 @@ def main():
 
                 print(df.iloc[n : n + 5])
                 n += 5
-                user_input = input('\nWould you like to see more data? Enter: Yes or No.\n')
+                user_input = input('\nWould you like to see another 5 lines of raw data? Enter: Yes or No.\n')
                 while user_input.lower() not in enter:
                     user_input = input('Please enter Yes or No:\n')
                     user_input = user_input.lower()
