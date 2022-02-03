@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+3rd February 2022
 
 ### Project Title
-Replace the Project Title
+Project 3: Introduction to Version Control - Post a project with Git
 
 ### Description
-Describe what your project is about and what it does
+In Project 3 I use the knowledge from Udacity Course Version Control to post my previous Project 2 with Git on Github.
+
+### Software used
+GIT tool: https://git-scm.com/downloads
 
 ### Files used
-Include the files used
+The file GitCommandsDocumentation.pdf shows the documentation of the Project 3.
+The file GitKeyTerms.pdf lists the main terms in Version Control for this Project 3.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://git-scm.com
+https://docs.github.com/en
