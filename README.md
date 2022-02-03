@@ -1,8 +1,8 @@
 ### Date created
-29th January 2022
+3rd February 2022
 
 ### Project Title
-Project 3: Introduction to Version Control
+Project 3: Introduction to Version Control - Post a project with Git
 
 ### Description
 In Project 3 I use the knowledge from Udacity Course Version Control to post my previous Project 2 with Git on Github.
@@ -11,4 +11,5 @@ In Project 3 I use the knowledge from Udacity Course Version Control to post my 
 The file Git Commands Documentation.pdf shows the documentation of the Project 3.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://git-scm.com
+https://docs.github.com/en
