@@ -190,7 +190,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        #Display a prompt where the user can decide if the user would like to see more data
+        #Display a prompt where the user can decide if the user would like to see more raw data with 5 more lines
         enter = ['yes','no']
         user_input = input('Would you like to see 5 lines of raw data? Enter: Yes or No.\n')
 
