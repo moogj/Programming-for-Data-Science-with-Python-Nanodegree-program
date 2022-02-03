@@ -7,6 +7,9 @@ Project 3: Introduction to Version Control - Post a project with Git
 ### Description
 In Project 3 I use the knowledge from Udacity Course Version Control to post my previous Project 2 with Git on Github.
 
+### Software used
+GIT tool: https://git-scm.com/downloads.
+
 ### Files used
 The file Git Commands Documentation.pdf shows the documentation of the Project 3.
 
