@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-In this project I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote Python code to import the data and answer interesting questions about it by computing descriptive statistics. I also wrote a Python script that takes in raw data input to create an interactive experience in the terminal to present the statistics.
+In this project I used Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. I wrote Python code to import the data and answered interesting questions about it by computing descriptive statistics. I also wrote a Python script that takes in raw data input to create an interactive experience in the terminal to present the statistics.
 
 ### List of software, firmware and hardware used
 * Python 3, NumPy, and Pandas installed using Anaconda.
